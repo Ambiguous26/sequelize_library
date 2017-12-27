@@ -10,7 +10,7 @@ var sequelize = new Sequelize("sequelize_library", "qgv0cj1imy3lbfhq", "xesx6p0x
   host: "etdq12exrvdjisg6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   dialect: "mysql",
   pool: {
-    max: 5,
+    max: 20,
     min: 0,
     idle: 10000
   }
